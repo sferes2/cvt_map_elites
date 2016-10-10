@@ -1,5 +1,5 @@
 
-// Centroidal Voronoi Tesselation - MAP-Elites
+// Centroidal Voronoi Tessellation - MAP-Elites
 // Vassilis Vassiliades - July 2016
 
 #ifndef CVT_MAP_ELITES_HPP_
