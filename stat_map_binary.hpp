@@ -5,7 +5,7 @@
 #include <numeric>
 #include <sferes/stat/stat.hpp>
 
-#include <cvt_map_elites/cvt_binary_map.hpp>
+#include "cvt_binary_map.hpp"
 
 namespace sferes {
     namespace stat {
