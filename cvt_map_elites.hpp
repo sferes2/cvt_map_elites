@@ -15,6 +15,7 @@
 
 #include <sferes/ea/ea.hpp>
 #include <sferes/fit/fitness.hpp>
+#include <sferes/parallel.hpp>
 #include <sferes/stc.hpp>
 
 namespace sferes {
