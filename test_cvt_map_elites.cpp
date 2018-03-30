@@ -21,6 +21,7 @@
 #include "fit_map.hpp"
 #include "stat_map.hpp"
 #include "stat_map_binary.hpp"
+#include "stat_progress.hpp"
 
 #ifndef NO_PARALLEL
 #include <sferes/eval/parallel.hpp>
@@ -163,7 +164,7 @@ int main(int argc, char** argv)
     typedef gen::EvoFloat<10, Params> gen_t;
     typedef phen::Parameters<gen_t, fit_t, Params> phen_t;
     typedef eval::Parallel<Params> eval_t;
-    typedef boost::fusion::vector<stat::Map<phen_t, Params>, stat::MapBinary<phen_t, Params>> stat_t;
+    typedef boost::fusion::vector<stat::Map<phen_t, Params>, stat::MapBinary<phen_t, Params>, stat::MapProgress<phen_t, Params>> stat_t;
     typedef modif::Dummy<> modifier_t;
     typedef ea::CVTMapElites<phen_t, eval_t, stat_t, modifier_t, Params> ea_t;
 
