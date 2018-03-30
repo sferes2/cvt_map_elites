@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
-k = 7
+k = 10000
 DIM = 2
 NumberOfSampedPoints = 50000
 

@@ -22,7 +22,7 @@ namespace sferes {
             + "map_" + boost::lexical_cast<std::string>(ea.gen())
             + std::string(".bin");
         auto archive = _multi_array_to_vector(ea.archive(), ea);
-        binary_map::write(archive, fname);
+        cvt::binary_map::write(archive, fname);
     } // namespace stat
 
 protected:
@@ -38,7 +38,7 @@ protected:
             if (archive[i]) {
                 // Write the descriptor
                 std::vector<float> desc = archive[i]->fit().desc();
-                binary_map::Elem elem;
+                cvt::binary_map::Elem elem;
                 elem.desc = desc;
                 elem.fit = archive[i]->fit().value();
                 elem.phen = archive[i]->data();
