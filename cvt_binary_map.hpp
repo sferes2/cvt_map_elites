@@ -1,5 +1,5 @@
-#ifndef BINARY_MAP_HPP_
-#define BINARY_MAP_HPP_
+#ifndef CVT_MAP_ELITES_BINARY_MAP_HPP_
+#define CVT_MAP_ELITES_BINARY_MAP_HPP_
 
 #include <array>
 #include <boost/archive/binary_iarchive.hpp>

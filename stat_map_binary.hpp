@@ -1,5 +1,5 @@
-#ifndef STAT_MAP_BINARY_HPP
-#define STAT_MAP_BINARY_HPP
+#ifndef CVT_MAP_ELITES_STAT_MAP_BINARY_HPP_
+#define CVT_MAP_ELITES_STAT_MAP_BINARY_HPP_
 
 #include <boost/multi_array.hpp>
 #include <numeric>

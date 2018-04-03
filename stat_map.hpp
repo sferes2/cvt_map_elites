@@ -1,5 +1,5 @@
-#ifndef STAT_MAP_HPP_
-#define STAT_MAP_HPP_
+#ifndef CVT_MAP_ELITES_STAT_MAP_HPP_
+#define CVT_MAP_ELITES_STAT_MAP_HPP_
 
 #include <boost/multi_array.hpp>
 #include <limits>
