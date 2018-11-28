@@ -2,6 +2,10 @@
 
 CVT-MAP-Elites module for Sferes2.
 
+## Python version
+This is the C++ version. It will be merged soon in sferes2. A python version of CVT-MAP-Elites is available here: https://gitlab.inria.fr/resibots/public/py_map-elites 
+
+
 ## Authors:
 - Vassilis Vassiliades (vassilis.vassiliades@inria.fr)
 
