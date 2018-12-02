@@ -56,8 +56,8 @@ namespace sferes {
                 }
 
                 // dividing by archive_size might be problematic if it is =0
-                // archive_mean /= archive_size;
-                archive_mean /= archive.size();
+                if (archive_size > 0)
+                    archive_mean /= archive_size;
 
                 ofs << ea.gen() << " " << ea.nb_evals() << " " << archive_size << " "
                     << archive_min << " " << archive_mean << " " << archive_max
